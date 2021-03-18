@@ -58,7 +58,7 @@ public:
     // Returns how many cards are "left" in the deck
     // "n" is a counter for the top most card
     int getDeckSize() const {
-        return n - 1;
+        return n + 1;
     }
 
     void initDeck() {
